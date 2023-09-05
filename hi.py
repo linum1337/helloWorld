@@ -1,5 +1,9 @@
-def print_cycle(iter_num: int):
+class PrintHello:
+  def __init__():
+    self.iter_number = 4
+def print_cycle(self, iter_num: int):
   for i in range(iter_num):
     print("Hello, world!")
 
-print_cycle(4)
+hi = PrintHello()
+hi.print_cycle(2)
